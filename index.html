@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/e45b446314.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Vishal</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!----------------------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Full Stack Developer with expertise in React.js, Node.js, and AWS. Passionate about creating scalable, efficient, user-centric solutions </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ui/Ux</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>web Development</li>
+                            <li><span>App Development</span><br>Buiding Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 -current</span><br>CONTENT WRITER AND SEO</li>
+                            <li><span>2021 - 2022</span><br>DATA MANAGEMENT ANDSTOCKMANAGEMENT</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>2017</span><br>SSC from state board of maharashtra </li> 
+                            <li><span>2019</span><br>HSC from state board of maharashtra</li>
+                            <li><span>2024</span><br>Bsc In computer science from university of mumbai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Developer</h2>
+                    <p>Get Your Personal Web site just conntact us. the form is given bellow or just email us on vishalsaroj5849@gmail.com</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <h2>Ui/UX Design</h2>
+                    <p>Get Your Personal design web design for your web site just conntact us. the form is given bellow or just email us on vishalsaroj5849@gmail.com</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Get Your Full fuctional App Just conntact us. the form is given bellow or just email us on vishalsaroj5849@gmail.com</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+<!------------portfolio---------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>BRAND-COLLABRATION MANAGEMENT SYSTEMS</h3>
+                    <p>BrandCollab Connect is a platform designed to bridge the gap between influencers and local businesses seeking to promote their products or services. 
+                        We provide a seamless way for influencers to discover nearby shops and brands that want to amplify their reach through targeted collaborations</p>
+                    <a href="#">Link</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Your music, your way! Explore a world of endless tunes with our Spotify-inspired app.
+                     Stream your favorite songs, create personalized playlists, and enjoy music anytime, anywhere. Dive into a seamless listening experience designed just for you!</p>
+                    <a href="#">Link</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Eshop For Multi-vendor</h3>
+                    <p>Our multi-vendor platform brings together a diverse range of sellers offering quality products across various categories.
+                        Whether you're looking for the latest trends, unique handmade items, or everyday essentials, we've got you covered. Shop with confidence, enjoy competitive prices, and discover exclusive deals all in one place!
+                        Empowering sellers, delighting customers that's the promise. Start exploring today!</p>
+                    <a href="#">Link</a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn:btn2">See More</a>
+    </div>
+</div>
+<!--------------------------contact form ------------------------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>📧 @vishalsaroj5849@gmail.com</p>
+                <p>📞8551855613</p><br>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/share/v/GQcksRabwim3WyTm/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/p/DDdtc5aNqUk/?igsh=M2Zub3F1MzlhYWlw"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://t.me/SyntheticSoule23"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://newzmanager.blogspot.com/"><i class="fab fa-blogger"></i></a>
+                    <a href="https://www.linkedin.com/in/vishal-saroj-78aab9215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://gmail.com/"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="MyCV.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="button" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Vishal2024-25</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");  
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyTa9-ICBxj_7xdi4WGeYQXKeu0YlFRDRLXb-wRx1RQzmock6xbCo-eyEOLw01IKw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
